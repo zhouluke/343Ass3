@@ -1,20 +1,26 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume>
+	<resume rID="p0132424">
 		<summary>
-			Crazy, wild and briliant
+			"Crazy, wild and briliant"
 		</summary>
 		<identification>
 			<name>
-				<forename>Kely</forename>
+				<forename>"Kely"</forename>
 				<surname>"Tinky"</surname>
 				<honorific>"phD"</honorific>
 			</name>
+			<sex>Female</sex>
+			<DOB>January,7th, 1912</DOB>
+			<citizenship>Canadian</citizenship>
+			<address>Milkyway</address>
+			<telephone>911</telephone>
+			<email>unborne@eyegotyou.com</email>
 		</identification>
 		<skills>
-			C
+			<skill what="C" level="1"></skill>
 		</skills>
 
 	</resume>
 </resumes>
-
-
