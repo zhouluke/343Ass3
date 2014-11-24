@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="p0132424">
+		<resume rID="a01">
 		<summary>
 			"Crazy, wild and briliant"
 		</summary>
@@ -19,8 +19,76 @@
 			<email>unborne@eyegotyou.com</email>
 		</identification>
 		<skills>
-			<skill what="C" level="1"></skill>
+			<skill what="C" level="1"/>
 		</skills>
-
 	</resume>
+	 <resume rID="b02">
+                <summary>
+                        "briliant"
+                </summary>
+                <identification>
+                        <name>
+                                <forename>"Keey"</forename>
+                                <surname>"Twwy"</surname>
+                                <honorific>"MD"</honorific>
+                        </name>
+                        <sex>Female</sex>
+                        <DOB>January,7th, 1912</DOB>
+                        <citizenship>Canadian</citizenship>
+                        <address>MilkywayWW</address>
+                        <telephone>911122</telephone>
+                        <email>unborneeee@eyegotyou.com</email>
+                </identification>
+                <skills>
+                        <skill what="C" level="1"/>
+                        <skill what="SQL" level="2"/>
+                        <skill what="Java" level="2"/>
+                        <skill what="Perl" level="4"/>
+                </skills>
+        </resume>
+        <resume rID="c03">
+                <summary>
+                        "Empty"
+                </summary>
+                <identification>
+                        <name>
+                                <forename>"Null"</forename>
+                                <surname>"Nulll"</surname>
+                                <honorific>"MD"</honorific>
+                        </name>
+                        <sex>Femalee</sex>
+                        <DOB>January,7th, 1912</DOB>
+                        <citizenship>Canadddian</citizenship>
+                        <address>MilkywaysdWW</address>
+                        <telephone>911122</telephone>
+                        <email>unborneeee@eyegotyou.com</email>
+                </identification>
+                <skills>
+                </skills>
+        </resume>
+         <resume rID="d04">
+                <summary>
+                        "questions1"
+                </summary>
+                <identification>
+                        <name>
+                                <forename>"q1"</forename>
+                                <surname>"q11"</surname>
+                                <honorific>"dee"</honorific>
+                        </name>
+                        <sex>male</sex>
+                        <DOB>January,3th, 1912</DOB>
+                        <citizenship>American</citizenship>
+                        <address>HotChocoloate</address>
+                        <telephone>431</telephone>
+                        <email>un@eyegotyou.com</email>
+                </identification>
+              <skills>
+                        <skill what="XQuery" level="1"/>
+                        <skill what="SQL" level="2"/>
+                        <skill what="Scheme" level="2"/>
+                        <skill what="Prolog" level="4"/>
+                </skills>
+        </resume>
 </resumes>
+
