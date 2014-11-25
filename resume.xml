@@ -1,94 +1,54 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-		<resume rID="a01">
-		<summary>
-			"Crazy, wild and briliant"
-		</summary>
-		<identification>
-			<name>
-				<forename>"Kely"</forename>
-				<surname>"Tinky"</surname>
-				<honorific>"phD"</honorific>
-			</name>
-			<sex>Female</sex>
-			<DOB>January,7th, 1912</DOB>
-			<citizenship>Canadian</citizenship>
-			<address>Milkyway</address>
-			<telephone>911</telephone>
-			<email>unborne@eyegotyou.com</email>
-		</identification>
-		<skills>
-			<skill what="C" level="1"/>
-		</skills>
+	<resume rID="a01">
+	<summary>
+		"Crazy"
+	</summary>
+	<identification>
+		<name>
+			<forename>kelly</forename>
+			<surname>lanky</surname>
+			<honorific>phD</honorific>
+		</name>
+		<sex>female</sex>
+		<DOB>jannnn</DOB>
+		<citizenship>Caaand</citizenship>
+		<address>sdfjksd</address>
+		<telephone>132</telephone>
+		<email>yayayya</email>
+	</identification>
+	<skills>
+		<skill what="C" level="1"/>
+	</skills>
 	</resume>
-	 <resume rID="b02">
-                <summary>
-                        "briliant"
-                </summary>
-                <identification>
-                        <name>
-                                <forename>"Keey"</forename>
-                                <surname>"Twwy"</surname>
-                                <honorific>"MD"</honorific>
-                        </name>
-                        <sex>Female</sex>
-                        <DOB>January,7th, 1912</DOB>
-                        <citizenship>Canadian</citizenship>
-                        <address>MilkywayWW</address>
-                        <telephone>911122</telephone>
-                        <email>unborneeee@eyegotyou.com</email>
-                </identification>
-                <skills>
-                        <skill what="C" level="1"/>
-                        <skill what="SQL" level="2"/>
-                        <skill what="Java" level="2"/>
-                        <skill what="Perl" level="4"/>
-                </skills>
+        <resume rID="b02">
+        <summary>
+                "wild"
+        </summary>
+        <identification>
+                <name>
+                        <forename>elly</forename>
+                        <surname>kolo</surname>
+                        <honorific>"msD"</honorific>
+                </name>
+                <sex>"male"</sex>
+                <DOB>"May"</DOB>
+                <citizenship>"Daaand"</citizenship>
+                <address>"kkkksdfjksd"</address>
+                <telephone>"1222"</telephone>
+                <email>"lala"</email>
+        </identification>
+        <skills>
+                <skill what="SQL" level="1"/>
+		<skill what="Perl" level="2"/>
+		<skill what="Java" level="2"/>
+		<skill what="C" level="3"/>
+        </skills>
         </resume>
-        <resume rID="c03">
-                <summary>
-                        "Empty"
-                </summary>
-                <identification>
-                        <name>
-                                <forename>"Null"</forename>
-                                <surname>"Nulll"</surname>
-                                <honorific>"MD"</honorific>
-                        </name>
-                        <sex>Femalee</sex>
-                        <DOB>January,7th, 1912</DOB>
-                        <citizenship>Canadddian</citizenship>
-                        <address>MilkywaysdWW</address>
-                        <telephone>911122</telephone>
-                        <email>unborneeee@eyegotyou.com</email>
-                </identification>
-                <skills>
-                </skills>
-        </resume>
-         <resume rID="d04">
-                <summary>
-                        "questions1"
-                </summary>
-                <identification>
-                        <name>
-                                <forename>"q1"</forename>
-                                <surname>"q11"</surname>
-                                <honorific>"dee"</honorific>
-                        </name>
-                        <sex>male</sex>
-                        <DOB>January,3th, 1912</DOB>
-                        <citizenship>American</citizenship>
-                        <address>HotChocoloate</address>
-                        <telephone>431</telephone>
-                        <email>un@eyegotyou.com</email>
-                </identification>
-              <skills>
-                        <skill what="XQuery" level="1"/>
-                        <skill what="SQL" level="2"/>
-                        <skill what="Scheme" level="2"/>
-                        <skill what="Prolog" level="4"/>
-                </skills>
-        </resume>
-</resumes>
 
+
+
+
+
+</resumes>
