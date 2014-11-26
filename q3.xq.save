@@ -1,7 +1,0 @@
-
-	for $posting in doc("posting.xml")//posting
-	let $max:= fn:max($posting//@importance)
-	let $req := $posting//@importance
-	where $req=$max
-	return $posting//@what
-	
