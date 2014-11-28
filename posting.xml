@@ -1,13 +1,13 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE postings SYSTEM "posting.dtd">
 <postings>
-	<posting pID="a01">
+	<posting pID="JOB01">
 		<position>"Manager"</position>
 		<reqSkill what="C" level="4" importance="5"/>
 		<reqSkill what="Lisp" level="3" importance="5"/>
 		<reqSkill what="Java" level="1" importance="5"/>
 	</posting>
-        <posting pID="b02">
+        <posting pID="JOB02">
                 <position>"Intern"</position>
                 <reqSkill what="C" level="4" importance="5"/>
                 <reqSkill what="Lisp" level="3" importance="5"/>
