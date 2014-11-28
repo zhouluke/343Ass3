@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
-	<resume rID="a01">
+	<resume rID="RES01">
 	<summary>
 		"Crazy"
 	</summary>
@@ -22,7 +22,7 @@
 		<skill what="C" level="1"/>
 	</skills>
 	</resume>
-        <resume rID="b02">
+        <resume rID="RES02">
         <summary>
                 "wild"
         </summary>
