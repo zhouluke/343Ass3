@@ -1,94 +1,94 @@
 <?xml version="1.0" standalone="no" ?>
-<!DOCTYPE interview SYSTEM "interview.dtd">
-<INTERVIEWS>
-	<INTERVIEW rID="RES01" pID="JOB01" sID="STAFF01">
-		<DATE>Nov 28, 2014</DATE>
-		<TIME>15:33</TIME>
-		<LOCATION>Hell</LOCATION>
-		<ASSESSMENT>
-			<ANSWERS>
-				<ANSWER qID="Q01">Yes</ANSWER>
-				<ANSWER qID="Q02">No</ANSWER>
-				<ANSWER qID="Q03">Maybe</ANSWER>
-				<ANSWER qID="Q04">I don't know</ANSWER>
-				<ANSWER qID="Q05">Could you repeat the question?</ANSWER>
-			</ANSWERS>
-			<TECHPROFICIENCY>12</TECHPROFICIENCY>
-			<COMMUNICATION>96</COMMUNICATION>
-			<ENTHUSIASM>74</ENTHUSIASM>
-			<COLLEGIALITY>3</COLLEGIALITY>
-		</ASSESSMENT>
-	</INTERVIEW>	
+<!DOCTYPE interviews SYSTEM "interview.dtd">
+<interviews>
+	<interview rID="RES01" pID="JOB01" sID="STAFF01">
+		<date>Nov 28, 2014</date>
+		<time>15:33</time>
+		<location>Hell</location>
+		<assessment>
+			<answers>
+				<answer qID="Q01">Yes</answer>
+				<answer qID="Q02">No</answer>
+				<answer qID="Q03">Maybe</answer>
+				<answer qID="Q04">I don't know</answer>
+				<answer qID="Q05">Could you repeat the question?</answer>
+			</answers>
+			<techProficiency>12</techProficiency>
+			<communication>96</communication>
+			<enthusiasm>74</enthusiasm>
+			<collegiality>3</collegiality>
+		</assessment>
+	</interview>	
 
-	<INTERVIEW rID="RES02" pID="JOB02" sID="STAFF01">
-		<DATE>June 28, 2014</DATE>
-		<TIME>11:46</TIME>
-		<LOCATION>Igloolik</LOCATION>
-		<ASSESSMENT>
-			<ANSWERS>
-				<ANSWER qID="Q01">Why</ANSWER>
-				<ANSWER qID="Q02">Because I felt like it</ANSWER>
-				<ANSWER qID="Q03">Agga ningiuq</ANSWER>
-				<ANSWER qID="Q04">That's not very nice</ANSWER>
-				<ANSWER qID="Q05">Aiviujunga</ANSWER>
-			</ANSWERS>
-			<TECHPROFICIENCY>100</TECHPROFICIENCY>
-			<COMMUNICATION>16</COMMUNICATION>
-			<ENTHUSIASM>0</ENTHUSIASM>
-		</ASSESSMENT>
-	</INTERVIEW>
+	<interview rID="RES02" pID="JOB02" sID="STAFF01">
+		<date>June 28, 2014</date>
+		<time>11:46</time>
+		<location>Igloolik</location>
+		<assessment>
+			<answers>
+				<answer qID="Q01">Why</answer>
+				<answer qID="Q02">Because I felt like it</answer>
+				<answer qID="Q03">Agga ningiuq</answer>
+				<answer qID="Q04">That's not very nice</answer>
+				<answer qID="Q05">Aiviujunga</answer>
+			</answers>
+			<techProficiency>100</techProficiency>
+			<communication>16</communication>
+			<enthusiasm>0</enthusiasm>
+		</assessment>
+	</interview>
 
-	<INTERVIEW rID="RES03" pID="JOB01" sID="STAFF02">
-		<DATE>September 11, 2001</DATE>
-		<TIME>11:11</TIME>
-		<LOCATION>Pluto</LOCATION>
-		<ASSESSMENT>
-			<TECHPROFICIENCY>100</TECHPROFICIENCY>
-			<COMMUNICATION>16</COMMUNICATION>
-			<ENTHUSIASM>0</ENTHUSIASM>
-			<COLLEGIALITY>38</COLLEGIALITY>
-		</ASSESSMENT>
-	</INTERVIEW>
+	<interview rID="RES03" pID="JOB01" sID="STAFF02">
+		<date>September 11, 2001</date>
+		<time>11:11</time>
+		<location>Pluto</location>
+		<assessment>
+			<techProficiency>100</techProficiency>
+			<communication>16</communication>
+			<enthusiasm>0</enthusiasm>
+			<collegiality>38</collegiality>
+		</assessment>
+	</interview>
 
-	<INTERVIEW rID="RES04" pID="JOB01" sID="STAFF03">
-		<DATE>February 14, 1969</DATE>
-		<TIME>19:54</TIME>
-		<LOCATION>Montreal</LOCATION>
-		<ASSESSMENT>
-			<TECHPROFICIENCY>10</TECHPROFICIENCY>
-			<COMMUNICATION>93</COMMUNICATION>
-			<ENTHUSIASM>93</ENTHUSIASM>
-		</ASSESSMENT>
-	</INTERVIEW>
+	<interview rID="RES04" pID="JOB01" sID="STAFF03">
+		<date>February 14, 1969</date>
+		<time>19:54</time>
+		<location>Montreal</location>
+		<assessment>
+			<techProficiency>10</techProficiency>
+			<communication>93</communication>
+			<enthusiasm>93</enthusiasm>
+		</assessment>
+	</interview>
 
-	<INTERVIEWER sID="STAFF01"> 
-		<FORENAME>Jeffrey</FORENAME>
-		<SURNAME>Steele</SURNAME>
-		<HONORIFIC>Mixter</HONORIFIC>
-		<HONORIFIC>Admiral</HONORIFIC>
-		<HONORIFIC>Doctor</HONORIFIC>
-		<HONORIFIC>Queen</HONORIFIC>
-		<HONORIFIC>Lord</HONORIFIC>
-		<TITLE>Dungeon Master</TITLE>
-	</INTERVIEWER>
+	<interviewer sID="STAFF01"> 
+		<forename>Jeffrey</forename>
+		<surname>Steele</surname>
+		<honorific>Mixter</honorific>
+		<honorific>Admiral</honorific>
+		<honorific>Doctor</honorific>
+		<honorific>Queen</honorific>
+		<honorific>Lord</honorific>
+		<title>Dungeon Master</title>
+	</interviewer>
 
-	<INTERVIEWER sID="STAFF02"> 
-		<FORENAME>Maury</FORENAME>
-		<SURNAME>Povich</SURNAME>
-		<HONORIFIC>Master</HONORIFIC>
-	</INTERVIEWER>
+	<interviewer sID="STAFF02"> 
+		<forename>Maury</forename>
+		<surname>Povich</surname>
+		<honorific>Master</honorific>
+	</interviewer>
 
-	<INTERVIEWER sID="STAFF03"> 
-		<FORENAME>Atanaarjuat</FORENAME>
-		<SURNAME>Alorut</SURNAME>
-		<HONORIFIC>Captain</HONORIFIC>
-		<TITLE>The fastest runner</TITLE>
-	</INTERVIEWER>
+	<interviewer sID="STAFF03"> 
+		<forename>Atanaarjuat</forename>
+		<surname>Alorut</surname>
+		<honorific>Captain</honorific>
+		<title>The fastest runner</title>
+	</interviewer>
 
-	<INTERVIEWER sID="STAFF04"> 
-		<FORENAME>Puja</FORENAME>
-		<SURNAME>Atsuli</SURNAME>
-		<HONORIFIC>Miss</HONORIFIC>
-		<TITLE>Bus driver</TITLE>
-	</INTERVIEWER>
-</INTERVIEWS>	
+	<interviewer sID="STAFF04"> 
+		<forename>Puja</forename>
+		<surname>Atsuli</surname>
+		<honorific>Miss</honorific>
+		<title>Bus driver</title>
+	</interviewer>
+</interviews>	
