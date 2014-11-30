@@ -1,11 +1,13 @@
-(:fn:doc("interview.xml"))
+let $level :=
 
-(:for $res in doc("resume.xml")//resume
-let $num:= fn:count($res//@what)
-return $num:)
+   for $posting in doc("posting.xml")//posting
+   let $max:= fn:max($posting//@importance)
+        (:return $max:)
+        for $reqs in $posting//@importance
+        where $max=$reqs
+        return ($reqs/..//@what, $reqs)
 
-for $res in doc("resume.xml")//resume   
-let $num:= fn:count($res//@what)
-where $num >3
-return ($res//@rID, $res//forename, $num)
+
+
+return $level
 
