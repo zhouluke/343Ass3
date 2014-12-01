@@ -2,15 +2,15 @@
 <!DOCTYPE postings SYSTEM "posting.dtd">
 <postings>
 	<posting pID="JOB01">
-		<position>"Manager"</position>
+		<position>Manager</position>
 		<reqSkill what="C" level="4" importance="5"/>
 		<reqSkill what="Lisp" level="3" importance="5"/>
 		<reqSkill what="Java" level="1" importance="5"/>
 	</posting>
-        <posting pID="JOB02">
-                <position>"Intern"</position>
-                <reqSkill what="C" level="4" importance="5"/>
-                <reqSkill what="Lisp" level="3" importance="5"/>
-                <reqSkill what="Java" level="1" importance="5"/>
-        </posting>
+    <posting pID="JOB02">
+		<position>Intern</position>
+		<reqSkill what="C" level="4" importance="5"/>
+		<reqSkill what="Lisp" level="3" importance="5"/>
+		<reqSkill what="Java" level="1" importance="5"/>
+	</posting>
 </postings>

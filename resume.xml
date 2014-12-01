@@ -2,53 +2,146 @@
 <!DOCTYPE resumes SYSTEM "resume.dtd">
 <resumes>
 	<resume rID="RES01">
-	<summary>
-		"Crazy"
-	</summary>
-	<identification>
-		<name>
-			<forename>kelly</forename>
-			<surname>lanky</surname>
-			<honorific>phD</honorific>
-		</name>
-		<sex>female</sex>
-		<DOB>jannnn</DOB>
-		<citizenship>Caaand</citizenship>
-		<address>sdfjksd</address>
-		<telephone>132</telephone>
-		<email>yayayya</email>
-	</identification>
-	<skills>
-		<skill what="C" level="1"/>
-	</skills>
+		<summary>"Crazy"</summary>
+		<identification>
+			<name>
+				<forename>kelly</forename>
+				<surname>lanky</surname>
+				<honorific>phD</honorific>
+			</name>
+			<sex>female</sex>
+			<DOB>jannnn</DOB>
+			<citizenship>Caaand</citizenship>
+			<address>sdfjksd</address>
+			<telephone>132</telephone>
+			<email>yayayya</email>
+		</identification>
+		<skills>
+			<skill what="C" level="1"/>
+		</skills>
 	</resume>
-        <resume rID="RES02">
-        <summary>
-                "wild"
-        </summary>
-        <identification>
-                <name>
-                        <forename>elly</forename>
-                        <surname>kolo</surname>
-                        <honorific>"msD"</honorific>
-                </name>
-                <sex>"male"</sex>
-                <DOB>"May"</DOB>
-                <citizenship>"Daaand"</citizenship>
-                <address>"kkkksdfjksd"</address>
-                <telephone>"1222"</telephone>
-                <email>"lala"</email>
-        </identification>
-        <skills>
-                <skill what="SQL" level="1"/>
-		<skill what="Perl" level="2"/>
-		<skill what="Java" level="2"/>
-		<skill what="C" level="3"/>
-        </skills>
-        </resume>
 
+    <resume rID="RES02">
+	    <summary>"wild"</summary>
+	    <identification>
+	        <name>
+	            <forename>elly</forename>
+	            <surname>kolo</surname>
+	            <honorific>"msD"</honorific>
+	        </name>
+	        <sex>"male"</sex>
+	        <DOB>"May"</DOB>
+	        <citizenship>"Daaand"</citizenship>
+	        <address>"kkkksdfjksd"</address>
+	        <telephone>"1222"</telephone>
+	        <email>"lala"</email>
+	    </identification>
+	    <skills>
+	        <skill what="SQL" level="1"/>
+			<skill what="Perl" level="2"/>
+			<skill what="Java" level="2"/>
+			<skill what="C" level="3"/>
+	    </skills>
+    </resume>
 
+	<resume rID="RES03">
+		<summary>I love you</summary>
+		<identification>
+			<name>
+				<forename>Patrick</forename>
+				<surname>Star</surname>
+				<honorific>Sir</honorific>
+			</name>
+			<sex>Neuter</sex>
+			<DOB>Never</DOB>
+			<citizenship>Murica</citizenship>
+			<address>64 Zoo Lane</address>
+			<telephone>4169673649</telephone>
+			<email>info@ytv.ca</email>
+		</identification>
+		<education>
+			<degree level="doctoral">
+				<degreename>BSc</degreename>
+				<institution>Everest College</institution>
+				<major>Underwater Basket Weaving</major>
+				<honours>true</honours>
+				<period>
+					<startDate>1996</startDate>
+					<endDate>2000</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position>
+				<title>Driver</title>
+				<description>Laze around all day doing nothing
+				</description>
+				<period>
+					<startDate>1056</startDate>
+					<endDate>1103</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="LaTeX" level="5"/>
+			<skill what="XQuery" level="3"/>
+			<skill what="Prolog" level="4"/>
+			<skill what="SQL" level="1"/>
+		</skills>
+	</resume>
 
+	<resume rID="RES04">
+		<identification>
+			<name>
+				<forename>Gino</forename>
+				<surname>Bustamente</surname>
+				<honorific>Lord</honorific>
+			</name>
+			<sex>Neuter</sex>
+			<DOB>0 AD</DOB>
+			<citizenship>Egypt</citizenship>
+			<address>63 Zoo Lane</address>
+			<telephone>4169673649</telephone>
+			<email>complaints@ytv.ca</email>
+		</identification>
+		<experience>
+			<position>
+				<title>Self-employed</title>
+				<description>Homemaker</description>
+				<period>
+					<startDate>2056</startDate>
+					<endDate>2103</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="LaTeX" level="5"/>
+			<skill what="XQuery" level="3"/>
+			<skill what="Prolog" level="4"/>
+			<skill what="SQL" level="1"/>
+		</skills>
+	</resume>
 
+	<resume rID="RES05">
+		<identification>
+			<name>
+				<forename>Raigelee</forename>
+				<surname>Alorut</surname>
+				<honorific>Queen</honorific>
+			</name>
+			<sex>Non-binary</sex>
+			<DOB>1995</DOB>
+			<citizenship>Inuit</citizenship>
+			<address>15 Road to Nowhere</address>
+			<telephone>5149673649</telephone>
+			<email>help@publicmobile.ca</email>
+		</identification>
+		<skills>
+			<skill what="LaTeX" level="5"/>
+			<skill what="XQuery" level="3"/>
+			<skill what="Prolog" level="4"/>
+			<skill what="SQL" level="1"/>
+		</skills>
+	</resume>
 
 </resumes>
