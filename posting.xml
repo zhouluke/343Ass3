@@ -1,18 +1,38 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE postings SYSTEM "posting.dtd">
+
+<!--
+	EXPECTED RETURN RESULTS
+	Q3: [most important reqSkill in each posting]
+	Q4: JOB 01 (C - 4)
+		JOB 02 (Perl - 5)
+		JOB 03 (Scheme, Python - 4)
+-->
+
 <postings>
 	<posting pID="JOB01">
 		<position>Manager</position>
 		<reqSkill what="C" level="4" importance="5"/>
 		<reqSkill what="Lisp" level="3" importance="5"/>
 		<reqSkill what="Java" level="1" importance="5"/>
+		<questions>
+			<question>Are you a moron!?!?!?!</question>
+			<question>Will you marry me?</question>
+		</questions>
+		<questions>
+			<question>How much wood could a woodchuck chuck if a woodchuck could chuck wood?</question>
+		</questions>
 	</posting>
+
     <posting pID="JOB02">
 		<position>Intern</position>
-		<reqSkill what="C" level="4" importance="5"/>
-		<reqSkill what="Lisp" level="3" importance="5"/>
-		<reqSkill what="Java" level="1" importance="5"/>
+		<reqSkill what="Perl" level="5" importance="2"/>
+		<reqSkill what="Lisp" level="1" importance="2"/>
+		<reqSkill what="Java" level="2" importance="4"/>
+		<reqSkill what="R" level="4" importance="4"/>
+		<questions></questions>
 	</posting>
+
 	<!-- THE EXAMPLE POSTING IN THE HANDOUT FOR Q8 -->
 	<posting pID="JOB03">
 		<position>Code Monkey</position>
@@ -21,5 +41,19 @@
 		<reqSkill what="Scheme" level="3" importance="3"/>
 		<reqSkill what="LaTeX" level="5" importance="3"/>
 		<reqSkill what="Python" level="4" importance="4"/>
+	</posting>
+
+	<!-- Test case for only one reqSkill -->
+	<posting pID="JOB04">
+		<position>Drill Seargent</position>
+		<reqSkill what="C" level="2" importance="1"/>
+	</posting>
+	
+	<!-- Test case for only two reqSkills -->
+	<posting pID="JOB05">
+		<position>Coffee Runner</position>
+		<reqSkill what="awk" level="3" importance="3"/>
+		<reqSkill what="R" level="3" importance="1"/>
+		<reqSkill what="XQuery" level="3" importance="2"/>
 	</posting>
 </postings>

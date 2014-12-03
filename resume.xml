@@ -1,5 +1,11 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE resumes SYSTEM "resume.dtd">
+
+<!--
+	EXPECTED RETURN RESULTS
+	Q1: RES 02, 03, 04, 05, 06
+-->
+
 <resumes>
 	<resume rID="RES01">
 		<summary>"Crazy"</summary>
@@ -41,6 +47,7 @@
 			<skill what="Perl" level="2"/>
 			<skill what="Java" level="2"/>
 			<skill what="C" level="3"/>
+			<skill what="LaTeX" level="5"/>
 	    </skills>
     </resume>
 
@@ -167,4 +174,68 @@
 		</skills>
 	</resume>
 
+	<!-- LOSER WITH NO SKILLS :( -->
+	<resume rID="RES07">
+		<identification>
+			<name>
+				<forename>Titilayo</forename>
+				<surname>Adeboyala</surname>
+				<honorific>Dark Princess</honorific>
+				<title>Mixtress</title>
+			</name>
+			<sex>Fabulously adrogyenous</sex>
+			<DOB>1993</DOB>
+			<citizenship>Seychelles</citizenship>
+			<address>81 rue Tabaga</address>
+			<telephone>9920047362</telephone>
+			<email>NONE</email>
+		</identification>
+		<skills>
+		</skills>
+	</resume>
+
+	<!-- LOSER WITH 3 SKILLS -->
+	<resume rID="RES08">
+		<identification>
+			<name>
+				<forename>Pascal</forename>
+				<surname>Xiu</surname>
+				<honorific>Puppy</honorific>
+				<title>Woof</title>
+			</name>
+			<sex>Masc as hell brah</sex>
+			<DOB>1801</DOB>
+			<citizenship>Singapore</citizenship>
+			<address>72 Raffles Rd</address>
+			<telephone>Durr i dunno</telephone>
+			<email>masc_brah@grindr.com</email>
+		</identification>
+		<skills>
+			<skill what="Lisp" level="5"/>
+			<skill what="MATLAB" level="1"/>
+			<skill what="awk" level="4"/>
+		</skills>
+	</resume>
+
+	<!-- LOSER WITH 2 SKILLS -->
+	<resume rID="RES09">
+		<identification>
+			<name>
+				<forename>Shawmikia</forename>
+				<surname>Xzavion</surname>
+				<honorific>Dark Spectre</honorific>
+				<title>Your Highness</title>
+			</name>
+			<sex>Adrogenous</sex>
+			<DOB>29</DOB>
+			<citizenship>Planet of Lost Dreams</citizenship>
+			<address>Everywhere</address>
+			<telephone>Call his name three times</telephone>
+			<email>shawmikia@grindr.com</email>
+		</identification>
+		<skills>
+			<skill what="Shell" level="3"/>
+			<skill what="sed" level="2"/>
+		</skills>
+	</resume>
 </resumes>

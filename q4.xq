@@ -1,18 +1,19 @@
+let $resumes:=doc("resume.xml")
 let $q4 :=
 
 for $posting in doc("posting.xml")//posting
-        (:let $reqSkill := $posting//@what:)
-        for $reqSkill in $posting//@what
-        for $givenSkill in doc("resume.xml")//*/skills
 
-        (:let $pLevel := $reqSkill/..//@level
-                let $rLevel := $givenSkill//@level:)
+    for $reqSkill in $posting/reqSkill
+    let $what := $reqSkill/@what
+    let $reqLvl := $reqSkill/@level
+    let $allSkillNodes := $resumes//skill[@what=$what]
 
-        where $reqSkill=$givenSkill/*/@what and $reqSkill/..//@level > $givenSkill//@level
-
-        (:$posting/*[@level >= $givenSkill/@level]
-                let $pLevel := $posting//@level
-                let $rLevel := $givenSkill//@level:)
-        return $posting//@pID 
+    (: "Does there exists a skill node -- for any candidate -- 
+        such that their skill level is >= the req skill level?" :)
+    return 
+        if (empty($allSkillNodes[@level>=$reqLvl]))
+        then ($posting//@pID)
+        else ()
+    
 
 return fn:distinct-values($q4)

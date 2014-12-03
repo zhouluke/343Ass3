@@ -1,5 +1,11 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE interviews SYSTEM "interview.dtd">
+
+<!--
+	EXPECTED RETURN RESULTS
+	Q2: STAFF 01, 03, 05
+-->
+
 <interviews>
 	<interview rID="RES01" pID="JOB01" sID="STAFF01">
 		<date>Nov 28, 2014</date>

@@ -5,9 +5,7 @@ let $level :=
         (:return $max:)
         for $reqs in $posting//@importance
         where $max=$reqs
-        return ($reqs/..//@what, $reqs)
-
-
+        return ((:$posting/@pID,:) $reqs/..//@what, $reqs)
 
 return $level
 
