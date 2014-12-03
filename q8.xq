@@ -13,16 +13,40 @@
 	<interview>
 		<who rID="" forename="" surname="" />
 		<position>lol</position>
-		<match>lol</match>
+		<match>5</match>
 		<average>93</average>
 	</interview>
 	<interview>
 		<who rID="" forename="" surname="" />
 		<position>lol</position>
-		<match>lol</match>
-		<average>93</average>
+		<match>8</match>
+		<average>23</average>
 	</interview>
 </report> :)
+
+(: XQUERY IS STUPID -_-
+declare function local:degOfMatch($myResume as node(), $myPosting as node()) 
+{
+	return <match>
+	{
+		sum(
+			for $reqSkill in $myPosting//reqSkill
+			let $what:=data($reqSkill/@what)
+			let $lvl:=data($reqSkill/@level)
+			let $imp:=data($reqSkill[@what=$what]/@importance)
+
+			let $resumeSkill:=$myResume//skill[@what=$what]
+			let $resumeWhat:=data($resumeSkill/@what)
+			let $resumeLvl:=data($resumeSkill/@level)
+
+			return 
+				if ($lvl<=$resumeLvl)
+				then ($imp)
+				else (-1*$imp)
+		)
+	}
+};
+:)
 
 <report> 
 {
@@ -37,8 +61,44 @@
 	return 
 	<interview>
 	{
-		(<who rID="{$rID}" forename="{$myResume//forename}" surname="{$myResume//surname}" />,
-		$myPosting/position)
+		<who rID="{$rID}" forename="{$myResume//forename}" surname="{$myResume//surname}" />,
+		$myPosting/position,
+
+		(: degOfMatch($myResume,$myPosting) :)
+	
+		<match>
+		{
+			sum(
+				for $reqSkill in $myPosting//reqSkill
+				let $what:=data($reqSkill/@what)
+				let $lvl:=data($reqSkill/@level)
+				let $imp:=data($reqSkill[@what=$what]/@importance)
+
+				let $resumeSkill:=$myResume//skill[@what=$what]
+				let $resumeLvl:=data($resumeSkill/@level)
+
+				return 
+					if ($lvl<=$resumeLvl)
+					then ($imp)
+					else (-1*$imp)
+			) 
+		}
+		</match>
+		,
+		<average>
+		{
+			sum(
+				for $reqSkill in $myPosting//reqSkill
+				let $what:=data($reqSkill/@what)
+
+				let $resumeSkill:=$myResume//skill[@what=$what]
+				let $resumeLvl:=data($resumeSkill/@level)
+
+				let $divisor:=count($myPosting//reqSkill)
+				return ($resumeLvl div $divisor)
+			)
+		}
+		</average>
 	}
 	</interview>
 }

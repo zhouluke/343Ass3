@@ -144,4 +144,27 @@
 		</skills>
 	</resume>
 
+	<!-- FOR THE EXAMPLE IN THE HANDOUT FOR Q8 -->
+	<resume rID="RES06">
+		<identification>
+			<name>
+				<forename>Karone</forename>
+				<surname>Astronema</surname>
+				<honorific>Dark Princess</honorific>
+			</name>
+			<sex>Genderqueer</sex>
+			<DOB>1975</DOB>
+			<citizenship>Quebecoise</citizenship>
+			<address>68 rue Sherbrooke</address>
+			<telephone>5143673600</telephone>
+			<email>inquiries@fido.ca</email>
+		</identification>
+		<skills>
+			<skill what="SQL" level="5"/>
+			<skill what="R" level="4"/>
+			<skill what="LaTeX" level="5"/>
+			<skill what="Python" level="3"/>
+		</skills>
+	</resume>
+
 </resumes>

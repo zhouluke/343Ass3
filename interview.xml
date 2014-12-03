@@ -61,6 +61,18 @@
 		</assessment>
 	</interview>
 
+	<!-- FOR THE EXAMPLE IN THE HANDOUT FOR Q8 -->
+	<interview rID="RES06" pID="JOB03" sID="STAFF05">
+		<date>February 14, 1969</date>
+		<time>19:54</time>
+		<location>Montreal</location>
+		<assessment>
+			<techProficiency>10</techProficiency>
+			<communication>93</communication>
+			<enthusiasm>93</enthusiasm>
+		</assessment>
+	</interview>
+
 	<interviewer sID="STAFF01"> 
 		<forename>Jeffrey</forename>
 		<surname>Steele</surname>
@@ -90,5 +102,13 @@
 		<surname>Atsuli</surname>
 		<honorific>Miss</honorific>
 		<title>Bus driver</title>
+	</interviewer>
+
+	<!-- FOR THE EXAMPLE IN THE HANDOUT FOR Q8 -->
+	<interviewer sID="STAFF05"> 
+		<forename>Taisha</forename>
+		<surname>Robinson</surname>
+		<honorific>Mistress</honorific>
+		<title>Dungeon master</title>
 	</interviewer>
 </interviews>	

@@ -13,4 +13,13 @@
 		<reqSkill what="Lisp" level="3" importance="5"/>
 		<reqSkill what="Java" level="1" importance="5"/>
 	</posting>
+	<!-- THE EXAMPLE POSTING IN THE HANDOUT FOR Q8 -->
+	<posting pID="JOB03">
+		<position>Code Monkey</position>
+		<reqSkill what="SQL" level="4" importance="5"/>
+		<reqSkill what="R" level="3" importance="4"/>
+		<reqSkill what="Scheme" level="3" importance="3"/>
+		<reqSkill what="LaTeX" level="5" importance="3"/>
+		<reqSkill what="Python" level="4" importance="4"/>
+	</posting>
 </postings>
