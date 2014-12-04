@@ -13,11 +13,11 @@
 		<location>Hell</location>
 		<assessment>
 			<answers>
-				<answer qID="Q01">Yes</answer>
-				<answer qID="Q02">No</answer>
-				<answer qID="Q03">Maybe</answer>
-				<answer qID="Q04">I don't know</answer>
-				<answer qID="Q05">Could you repeat the question?</answer>
+				<answer qID="Q01">0</answer>
+				<answer qID="Q02">10</answer>
+				<answer qID="Q03">96</answer>
+				<answer qID="Q04">33</answer>
+				<answer qID="Q05">46</answer>
 			</answers>
 			<techProficiency>12</techProficiency>
 			<communication>96</communication>
@@ -32,11 +32,10 @@
 		<location>Igloolik</location>
 		<assessment>
 			<answers>
-				<answer qID="Q01">Why</answer>
-				<answer qID="Q02">Because I felt like it</answer>
-				<answer qID="Q03">Agga ningiuq</answer>
-				<answer qID="Q04">That's not very nice</answer>
-				<answer qID="Q05">Aiviujunga</answer>
+				<answer qID="Q01">54</answer>
+				<answer qID="Q02">16</answer>
+				<answer qID="Q03">100</answer>
+				<answer qID="Q05">0</answer>
 			</answers>
 			<techProficiency>100</techProficiency>
 			<communication>16</communication>

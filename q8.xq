@@ -87,16 +87,7 @@ declare function local:degOfMatch($myResume as node(), $myPosting as node())
 		,
 		<average>
 		{
-			sum(
-				for $reqSkill in $myPosting//reqSkill
-				let $what:=data($reqSkill/@what)
-
-				let $resumeSkill:=$myResume//skill[@what=$what]
-				let $resumeLvl:=data($resumeSkill/@level)
-
-				let $divisor:=count($myPosting//reqSkill)
-				return ($resumeLvl div $divisor)
-			)
+			avg($i//answer | $i//techProficiency | $i//communication | $i//enthusiasm | $i//collegiality) 
 		}
 		</average>
 	}
