@@ -5,6 +5,8 @@
 	EXPECTED RETURN RESULTS
 	Q1: RES 02, 03, 04, 05, 06
 	Q6: RES 03, 04, 05
+
+
 -->
 
 <resumes>
@@ -12,16 +14,16 @@
 		<summary>"Crazy"</summary>
 		<identification>
 			<name>
-				<forename>kelly</forename>
-				<surname>lanky</surname>
-				<honorific>phD</honorific>
+				<forename>Rayletha</forename>
+				<surname>Janarious</surname>
+				<honorific>Fair Madam</honorific>
 			</name>
-			<sex>female</sex>
-			<DOB>jannnn</DOB>
-			<citizenship>Caaand</citizenship>
-			<address>sdfjksd</address>
+			<sex>Non-binary</sex>
+			<DOB>Jan 6, 1962</DOB>
+			<citizenship>Canada</citizenship>
+			<address>In my house</address>
 			<telephone>132</telephone>
-			<email>yayayya</email>
+			<email>yayayya@lolita.tk</email>
 		</identification>
 		<skills>
 			<skill what="C" level="1"/>
@@ -32,9 +34,9 @@
 	    <summary>"wild"</summary>
 	    <identification>
 	        <name>
-	            <forename>elly</forename>
-	            <surname>kolo</surname>
-	            <honorific>"msD"</honorific>
+	            <forename>Zoboomafoo</forename>
+	            <surname>Kratt</surname>
+	            <honorific>Lovely</honorific>
 	        </name>
 	        <sex>"male"</sex>
 	        <DOB>"May"</DOB>
@@ -103,7 +105,7 @@
 			<name>
 				<forename>Gino</forename>
 				<surname>Bustamente</surname>
-				<honorific>Lord</honorific>
+				<honorific>Admiral</honorific>
 			</name>
 			<sex>Neuter</sex>
 			<DOB>0 AD</DOB>
@@ -158,7 +160,7 @@
 			<name>
 				<forename>Karone</forename>
 				<surname>Astronema</surname>
-				<honorific>Dark Princess</honorific>
+				<honorific>Dark Lord</honorific>
 			</name>
 			<sex>Genderqueer</sex>
 			<DOB>1975</DOB>
@@ -172,6 +174,7 @@
 			<skill what="R" level="4"/>
 			<skill what="LaTeX" level="5"/>
 			<skill what="Python" level="3"/>
+			<!-- <skill what="Haskell" level="4"/> -->
 		</skills>
 	</resume>
 
@@ -215,6 +218,7 @@
 			<skill what="Lisp" level="5"/>
 			<skill what="MATLAB" level="1"/>
 			<skill what="awk" level="4"/>
+			<!-- <skill what="Haskell" level="4"/> -->
 		</skills>
 	</resume>
 
@@ -237,6 +241,29 @@
 		<skills>
 			<skill what="Shell" level="3"/>
 			<skill what="sed" level="2"/>
+			<!-- <skill what="Haskell" level="4"/> -->
+		</skills>
+	</resume>
+
+	<resume rID="RES10">
+		<identification>
+			<name>
+				<forename>Jennifer</forename>
+				<surname>Scott-Barnier</surname>
+				<honorific>Psycho</honorific>
+				<title>Cossa</title>
+			</name>
+			<sex>No thanks</sex>
+			<DOB>Yesterday</DOB>
+			<citizenship>Easter Island</citizenship>
+			<address>Down by the bay where the watermelons grow</address>
+			<telephone>3820184939</telephone>
+			<email>crazy.lady@tdsb.on.ca</email>
+		</identification>
+		<skills>
+			<skill what="Shell" level="3"/>
+			<skill what="sed" level="5"/>
+			<!-- <skill what="Haskell" level="4"/> -->
 		</skills>
 	</resume>
 </resumes>

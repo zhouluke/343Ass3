@@ -31,22 +31,14 @@ xs:untypedAtomic("STAFF05")
 ------ Query q3 ------
 
 Raw results:
-attribute what {"C"},
-attribute importance {"5"},
-attribute what {"Lisp"},
-attribute importance {"5"},
-attribute what {"Java"},
-attribute importance {"5"},
-attribute what {"Java"},
-attribute importance {"4"},
-attribute what {"R"},
-attribute importance {"4"},
-attribute what {"SQL"},
-attribute importance {"5"},
-attribute what {"C"},
-attribute importance {"1"},
-attribute what {"awk"},
-attribute importance {"3"}
+<importantSkill pID="JOB01" skill="C" importance="5"/>,
+<importantSkill pID="JOB01" skill="Lisp" importance="5"/>,
+<importantSkill pID="JOB01" skill="Java" importance="5"/>,
+<importantSkill pID="JOB02" skill="Java" importance="4"/>,
+<importantSkill pID="JOB02" skill="R" importance="4"/>,
+<importantSkill pID="JOB03" skill="SQL" importance="5"/>,
+<importantSkill pID="JOB04" skill="C" importance="1"/>,
+<importantSkill pID="JOB05" skill="awk" importance="3"/>
 
 ------ Query q4 ------
 

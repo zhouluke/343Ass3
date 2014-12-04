@@ -6,9 +6,7 @@ let $level :=
         for $reqs in $posting//@importance
         where $max=$reqs
         return 
-		<posting pID="{$posting/@pID}">
-        	<skill importance="{$reqs}">{$reqs/..//@what}</skill>
-    	</posting>
+		<importantSkill pID="{$posting/@pID}" skill="{$reqs/..//@what}" importance="{$reqs}" />
 
 return $level
 
