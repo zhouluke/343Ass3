@@ -6,7 +6,7 @@ Checking Assignment 3 (Part 1) Solutions
 
 Raw results:
 attribute rID {"RES02"},
-<forename>elly</forename>,
+<forename>Zoboomafoo</forename>,
 5,
 attribute rID {"RES03"},
 <forename>Patrick</forename>,
@@ -38,59 +38,39 @@ Raw results:
 <importantSkill pID="JOB02" skill="R" importance="4"/>,
 <importantSkill pID="JOB03" skill="SQL" importance="5"/>,
 <importantSkill pID="JOB04" skill="C" importance="1"/>,
-<importantSkill pID="JOB05" skill="awk" importance="3"/>
+<importantSkill pID="JOB05" skill="awk" importance="3"/>,
+<importantSkill pID="JOB06" skill="Haskell" importance="1"/>
 
 ------ Query q4 ------
 
 Raw results:
 xs:untypedAtomic("JOB01"),
 xs:untypedAtomic("JOB02"),
-xs:untypedAtomic("JOB03")
+xs:untypedAtomic("JOB03"),
+xs:untypedAtomic("JOB06")
 
 ------ Query q5 ------
 
 Raw results:
-attribute pID {"JOB01"},
-attribute pID {"JOB01"},
-attribute pID {"JOB01"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB03"},
-attribute pID {"JOB03"},
-attribute pID {"JOB03"},
-attribute pID {"JOB04"},
-attribute pID {"JOB05"},
-attribute pID {"JOB05"},
-attribute pID {"JOB05"},
-attribute pID {"JOB01"},
-attribute pID {"JOB01"},
-attribute pID {"JOB01"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB02"},
-attribute pID {"JOB03"},
-attribute pID {"JOB03"},
-attribute pID {"JOB03"},
-attribute pID {"JOB03"},
-attribute pID {"JOB04"},
-attribute pID {"JOB05"},
-attribute pID {"JOB05"},
-attribute pID {"JOB05"}
+xs:untypedAtomic("JOB01"),
+xs:untypedAtomic("JOB02"),
+xs:untypedAtomic("JOB03"),
+xs:untypedAtomic("JOB04"),
+xs:untypedAtomic("JOB05"),
+xs:untypedAtomic("JOB06")
 
 ------ Query q6 ------
 
 Raw results:
 <IDPair><ID>RES03</ID><ID>RES04</ID></IDPair>,
 <IDPair><ID>RES03</ID><ID>RES05</ID></IDPair>,
-<IDPair><ID>RES04</ID><ID>RES05</ID></IDPair>
+<IDPair><ID>RES04</ID><ID>RES05</ID></IDPair>,
+<IDPair><ID>RES09</ID><ID>RES10</ID></IDPair>
 
 ------ Query q7 ------
 
 Raw results:
-<skills><skill name="C"><count level="1" n="1"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Lisp"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Java"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Perl"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="R"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="SQL"><count level="1" n="4"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Scheme"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="LaTeX"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="5"/></skill><skill name="Python"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="awk"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="XQuery"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="3"/><count level="4" n="0"/><count level="5" n="0"/></skill></skills>
+<skills><skill name="C"><count level="1" n="1"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Lisp"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Java"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Perl"><count level="1" n="0"/><count level="2" n="1"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="R"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="SQL"><count level="1" n="4"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="1"/></skill><skill name="Scheme"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="LaTeX"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="5"/></skill><skill name="Python"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="1"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="awk"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="1"/><count level="5" n="0"/></skill><skill name="XQuery"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="3"/><count level="4" n="0"/><count level="5" n="0"/></skill><skill name="Haskell"><count level="1" n="0"/><count level="2" n="0"/><count level="3" n="0"/><count level="4" n="0"/><count level="5" n="0"/></skill></skills>
 
 Pretty results:
 <?xml version="1.0" standalone="no"?>
@@ -172,43 +152,50 @@ Pretty results:
     <count level="4" n="0"/>
     <count level="5" n="0"/>
   </skill>
+  <skill name="Haskell">
+    <count level="1" n="0"/>
+    <count level="2" n="0"/>
+    <count level="3" n="0"/>
+    <count level="4" n="0"/>
+    <count level="5" n="0"/>
+  </skill>
 </skills>
 
 ------ Query q8 ------
 
 Raw results:
-<report><interview><who rID="RES01" forename="kelly" surname="lanky"/><position>Manager</position><match>-15</match><average>41.1111111111</average></interview><interview><who rID="RES02" forename="elly" surname="kolo"/><position>Intern</position><match>-4</match><average>40.8571428571</average></interview><interview><who rID="RES03" forename="Patrick" surname="Star"/><position>Manager</position><match>-15</match><average>38.5</average></interview><interview><who rID="RES04" forename="Gino" surname="Bustamente"/><position>Manager</position><match>-15</match><average>65.3333333333</average></interview><interview><who rID="RES06" forename="Karone" surname="Astronema"/><position>Code Monkey</position><match>5</match><average>65.3333333333</average></interview></report>
+<report><interview><who rID="RES01" forename="Rayletha" surname="Janarious"/><position>Code Monkey</position><match>-15</match><average>41.1111111111</average></interview><interview><who rID="RES02" forename="Zoboomafoo" surname="Kratt"/><position>Underwater basket weaver</position><match>-4</match><average>40.8571428571</average></interview><interview><who rID="RES03" forename="Patrick" surname="Star"/><position>Code Monkey</position><match>-15</match><average>38.5</average></interview><interview><who rID="RES04" forename="Gino" surname="Bustamente"/><position>Code Monkey</position><match>-15</match><average>65.3333333333</average></interview><interview><who rID="RES06" forename="Karone" surname="Astronema"/><position>Slave boy</position><match>5</match><average>65.3333333333</average></interview></report>
 
 Pretty results:
 <?xml version="1.0" standalone="no"?>
 <report>
   <interview>
-    <who rID="RES01" forename="kelly" surname="lanky"/>
-    <position>Manager</position>
+    <who rID="RES01" forename="Rayletha" surname="Janarious"/>
+    <position>Code Monkey</position>
     <match>-15</match>
     <average>41.1111111111</average>
   </interview>
   <interview>
-    <who rID="RES02" forename="elly" surname="kolo"/>
-    <position>Intern</position>
+    <who rID="RES02" forename="Zoboomafoo" surname="Kratt"/>
+    <position>Underwater basket weaver</position>
     <match>-4</match>
     <average>40.8571428571</average>
   </interview>
   <interview>
     <who rID="RES03" forename="Patrick" surname="Star"/>
-    <position>Manager</position>
+    <position>Code Monkey</position>
     <match>-15</match>
     <average>38.5</average>
   </interview>
   <interview>
     <who rID="RES04" forename="Gino" surname="Bustamente"/>
-    <position>Manager</position>
+    <position>Code Monkey</position>
     <match>-15</match>
     <average>65.3333333333</average>
   </interview>
   <interview>
     <who rID="RES06" forename="Karone" surname="Astronema"/>
-    <position>Code Monkey</position>
+    <position>Slave boy</position>
     <match>5</match>
     <average>65.3333333333</average>
   </interview>
